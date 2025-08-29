@@ -27,7 +27,7 @@ class ResizedClocks:
         
         # Set default path if not provided
         if data_path is None:
-            self.data_path = '/content/gdrive/MyDrive/Data/Nhats Dataset/NHATS_R11_ClockDrawings_V2'
+            self.data_path = f'/content/drive/MyDrive/Nhats Dataset/NHATS_R11_ClockDrawings_V2'
         else:
             self.data_path = data_path
             
